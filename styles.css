@@ -2631,3 +2631,6 @@ textarea.w-input, textarea.w-select {
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr 1fr;
 }
+ul {
+  list-style-position: outside;
+}
