@@ -2139,8 +2139,8 @@ textarea.w-input, textarea.w-select {
   text-align: center;
   width: auto;
   margin: 20px auto 60px;
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 40px;
+  padding-right: 40px;
   font-family: Raleway, sans-serif;
   font-size: 26px;
   line-height: 30px;
@@ -2319,7 +2319,9 @@ textarea.w-input, textarea.w-select {
 }
 
 .container-3 {
-  background-color: #fff;
+  -webkit-text-fill-color: inherit;
+  background-color: #0000;
+  background-clip: border-box;
   margin-top: 0;
   position: absolute;
   inset: auto 0% 0%;
@@ -2328,8 +2330,8 @@ textarea.w-input, textarea.w-select {
 .heading-5 {
   color: #daa520;
   margin: 114px auto 0;
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 40px;
+  padding-right: 40px;
   font-family: Tenor Sans, sans-serif;
   font-size: 50px;
   line-height: 60px;
@@ -2342,8 +2344,11 @@ textarea.w-input, textarea.w-select {
   width: 100%;
   max-width: 940px;
   height: 100%;
+  max-height: 100%;
   margin: 0 auto 100px;
   padding-top: 0;
+  padding-left: 40px;
+  padding-right: 40px;
   font-family: Raleway, sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -2512,6 +2517,7 @@ textarea.w-input, textarea.w-select {
   grid-auto-columns: 1fr;
   width: 100%;
   height: 100%;
+  max-height: 100%;
   display: block;
 }
 
@@ -2631,6 +2637,13 @@ textarea.w-input, textarea.w-select {
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr 1fr;
 }
-ul {
-  list-style-position: outside;
+
+
+
+
+li {
+  list-style-type: disc;
+  list-style-position: inside;
+  text-indent: -1em;
+  padding-left: 1em;
 }
